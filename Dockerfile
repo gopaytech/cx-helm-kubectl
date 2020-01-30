@@ -2,7 +2,7 @@ FROM ubuntu:bionic
 
 WORKDIR /root/
 ENV PATH="$PATH:/root/"
-ENV HELM_VERSION=v2.14.3
+ENV HELM_VERSION=v2.16.1
 ENV HELM_FILENAME=helm-${HELM_VERSION}-linux-amd64.tar.gz
 
 RUN apt-get update \
